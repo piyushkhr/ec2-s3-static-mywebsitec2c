@@ -53,3 +53,7 @@ ec2-s3-static-website/
 Amazon EC2 (Web server)
 Amazon S3 (Static image hosting)
 IAM (Bucket policy for public access)
+
+
+
+
