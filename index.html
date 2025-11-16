@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EC2 + S3 Static Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="https://mybucketpykhr1028.s3.us-east-1.amazonaws.com/images/logo-design.png" alt="Website Logo"
+            class="logo">
+
+        <h1>Welcome to My Static Website</h1>
+
+        <img src="https://mybucketpykhr1028.s3.us-east-1.amazonaws.com/images/banner.jpg" alt="Banner" class="banner">
+    </header>
+
+    <section class="content">
+        <h2>Hosted on EC2 with Images from S3</h2>
+        <p>This website loads HTML, CSS, and JavaScript from an EC2 instance and images from Amazon S3.</p>
+
+        <img src="https://mybucketpykhr1028.s3.us-east-1.amazonaws.com/images/product.jpg" alt="Product Image"
+            class="product">
+
+        <button id="btnMessage">Click Me</button>
+
+        <p id="outputMessage"></p>
+    </section>
+
+    <footer>
+        <p>Powered by EC2 + S3</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
